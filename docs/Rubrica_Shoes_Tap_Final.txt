@@ -1,0 +1,172 @@
+📊
+📱
+  Rúbrica de Evaluación – Proyecto Final "Shoes Tap"
+      Aplicación Android con MVP, RecyclerView, Glide y SharedPreferences
+
+📈 Escala de Evaluación:
+- ❌ No logrado (0 pts)​
+- ⚠️ Medio logrado (mitad del puntaje)​
+- ✅ Logrado (puntaje completo)
+
+
+
+🧩 1. Funcionalidad general de la app (30 pts)
+​
+
+    Criterio         Puntos       No logrado       Medio           Logrado   ✅
+                                  ❌                logrado   ⚠️
+    La aplicación    10 pts       No inicia o se   Se ejecuta      Se ejecuta
+    se ejecuta                    cierra           pero con        sin errores
+    sin errores ni                                 errores
+    cierres
+
+    Navegación       10 pts       No navega        Navega pero     Navega con
+    entre                                          con errores     datos
+    pantallas con                                  de datos        correctos
+    datos
+    correctos
+
+    Implementac      10 pts       No               Implementad     MVP
+    ión de patrón                 implementad      o               correctament
+    MVP                           oo               parcialmente    e aplicado
+                                  incorrecto
+
+Subtotal: /30 pts
+
+
+
+🧩 2. Pantalla de inicio (Fragment + RecyclerView) (30
+​
+
+pts)
+    Criterio         Puntos       No logrado       Medio           Logrado   ✅
+                                  ❌                logrado   ⚠️
+    RecyclerView     10 pts       No muestra       Muestra         Muestra 10 o
+    con al menos                  lista            menos de 10     más
+    10 productos                                   o con errores
+                                                            correctament
+                                                            e
+
+    Muestra          5 pts    Elementos      Elementos      Muestra
+    imagen,                   faltan         incompletos    todos
+    nombre y                                                correctament
+    precio                                                  e
+
+    Uso de Glide     5 pts    No usa Glide   Glide con      Glide
+    para carga                               fallas o       implementad
+    de imágenes                              parcial        o
+                                                            correctament
+                                                            e
+
+    Lista cargada    5 pts    Datos          Parcialmente   Totalmente
+    desde datos               externos o     local          local y
+    locales                   falla                         funcional
+
+    Diseño           5 pts    Diseño         Legible pero   Atractivo y
+    limpio y                  desordenado    poco           bien
+    adaptado                                 atractivo      estructurado
+
+Subtotal: /30 pts
+
+
+
+🧩 3. Pantalla de descripción del producto (20 pts)
+​
+
+    Criterio         Puntos   No logrado     Medio          Logrado   ✅
+                              ❌              logrado   ⚠️
+    Muestra          5 pts    Datos          Datos          Muestra todo
+    nombre,                   incompletos    parciales o    correctament
+    imagen y                                 desorden       e
+    precio
+
+    Botón            5 pts    No funciona    Funciona       Funciona
+    “Agregar al                              parcialmente   correctament
+    carrito”                                                e
+    funcional
+
+    Navegación       5 pts    No navega      Navega con     Navega
+    correcta                                 errores        correctament
+    desde la lista                                          e
+    Diseño visual   5 pts    Diseño pobre    Accesible      Visual
+    atractivo y                              pero poco      atractivo y
+    accesible                                visual         accesible
+
+Subtotal: /20 pts
+
+
+
+🧩 4. Carrito de compras (25 pts)
+​
+
+    Criterio        Puntos   No logrado      Medio          Logrado   ✅
+                             ❌               logrado   ⚠️
+    Productos       5 pts    No agrega       Agrega con     Agrega
+    agregados                                errores        correctament
+    correctament                                            e
+    e
+
+    Uso de          5 pts    No              Implementad    Correctamen
+    SharedPrefer             implementad     o              te
+    ences                    o               parcialmente   implementad
+    (opcional)                                              o
+
+    Permite         5 pts    No elimina      Elimina pero   Elimina
+    eliminar                                 con errores    correctament
+    productos                                               e
+
+    Funcionalida    5 pts    No funcional    Parcialmente   Totalmente
+    d de vaciar                              funcional      funcional
+    carrito
+
+    Vista clara y   5 pts    Vista confusa   Funciona       Clara y
+    funcional del                            pero           funcional
+    carrito                                  desordenada
+
+Subtotal: /25 pts
+
+
+
+🧩 5. Código y buenas prácticas (15 pts)
+​
+
+    Criterio        Puntos   No logrado      Medio          Logrado   ✅
+                             ❌               logrado   ⚠️
+    Código          5 pts    Desordenado     Legible pero   Ordenado y
+    ordenado y               y sin           poco           bien
+    comentado                comentarios     comentado      comentado
+    Uso de           5 pts   Nombres          Parcialmente   Significativos
+    nombres                  genéricos        adecuados      y
+    significativos                                           consistentes
+
+    Separación       5 pts   Todo en una      Parcial        MVP aplicado
+    de lógica y              clase            separación     y separado
+    patrones
+
+Subtotal: /15 pts
+
+
+
+🧮 PUNTAJE FINAL TOTAL
+​
+
+Total Obtenido                     /100 pts
+
+
+
+
+📝 OBSERVACIONES FINALES
+​
+
+​
+_____________________________________________________________
+_______________________________________
+
+​
+_____________________________________________________________
+_______________________________________
+
+​
+_____________________________________________________________
+_______________________________________
+

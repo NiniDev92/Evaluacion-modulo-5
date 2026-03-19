@@ -1,0 +1,148 @@
+ 🧪
+ Tap" 👟📱
+    Evaluación Final – App "Shoes
+
+ 🟦 A. Primera Pantalla: Lista de productos 👞📋
+🎯  Objetivo: Mostrar una lista de zapatos y zapatillas disponibles para la
+venta en una pantalla de inicio.
+
+🔧 Requisitos técnicos:
+   ●​ 🖼️ RecyclerView para mostrar los productos.​
+
+   ●​ 🧾 Cada ítem debe incluir:
+          ○​ Imagen del zapato 👟
+          ○​ Nombre del zapato 🏷️
+          ○​ Precio 💲​
+
+   ●​ 🧰 Puedes usar la librería Glide para cargar imágenes desde URL
+
+   ●​ 🔂 Usa un Fragment para alojar la vista de productos.
+      (opcional).
+
+   ●​ 📦 Los productos serán cargados desde una lista estática local
+
+   ●​ 🧑‍💻 Crea una clase de datos Item con las propiedades:​
+      (hardcoded).
+
+
+          ○​ nombre: String
+          ○​ urlImagen: String
+          ○​ precio: Double
+
+📦 Ejemplo de función para cargar la lista de productos:
+ kotlin
+
+ fun returnShoeList():
+ List<Item> { val shoeList = mutableListOf<Item>() val shoeItem1 =
+ Item("Zapato      1",   "https://example.com/zapato1.jpg",      99.99)
+ shoeList.add(shoeItem1)   val    shoeItem2    =     Item("Zapato   2",
+ "https://example.com/zapato2.jpg", 79.99) shoeList.add(shoeItem2) val
+ shoeItem3 = Item("Zapato 3", "https://example.com/zapato3.jpg",
+ 149.99) shoeList.add(shoeItem3) val shoeItem4 = Item("Zapato 4",
+ "https://example.com/zapato4.jpg", 129.99) shoeList.add(shoeItem4) val
+ shoeItem5 = Item("Zapato 5", "https://example.com/zapato5.jpg",
+ 109.99) shoeList.add(shoeItem5) val shoeItem6 = Item("Zapato 6",
+ "https://example.com/zapato6.jpg", 89.99) shoeList.add(shoeItem6) val
+ shoeItem7 = Item("Zapato 7", "https://example.com/zapato7.jpg",
+ 199.99) shoeList.add(shoeItem7) val shoeItem8 = Item("Zapato 8",
+ "https://example.com/zapato8.jpg", 169.99) shoeList.add(shoeItem8) val
+ shoeItem9 = Item("Zapato 9", "https://example.com/zapato9.jpg",
+ 119.99) shoeList.add(shoeItem9) val shoeItem10 = Item("Zapato 10",
+ "https://example.com/zapato10.jpg", 149.99) shoeList.add(shoeItem10)
+ return shoeList }
+
+
+
+🔁 Recuerda cambiar las URLs por imágenes reales y ajustar los precios.
+
+ 🟩 B. Pantalla de descripción del producto 🧾📸
+🎯 Objetivo: Mostrar los detalles del producto al hacer clic en un zapato.
+🔧 Elementos que debe contener:
+   ●​ 🏷️ Nombre del producto
+   ●​ 🖼️ Imagen del zapato seleccionado
+   ●​ 💵 Precio
+   ●​ 🛒 Botón Agregar al carrito​
+
+
+🧭   Navegación: Desde el fragmento de inicio, al hacer clic sobre un
+zapato, navega al nuevo fragmento y pasa los datos mediante Bundle o
+SafeArgs.
+
+📦  Acción al presionar el botón: El producto debe agregarse al carrito
+de compras.
+
+
+
+
+ 🟥 C. Carrito de Compras 🛍️🧾
+🎯   Objetivo: Permitir al usuario gestionar su carrito de productos
+seleccionados.
+
+🔧 Elementos requeridos:
+ 1.   📦 Almacenamiento:
+  ●​   ✅   Puedes usar SharedPreferences (opcional) para guardar los
+       productos agregados.​
+
+
+
+
+ 2.   🧩 Vista del Carrito:
+  ●​ Debe mostrar:
+         ○​   🏷️
+              🖼️ Nombre
+         ○​
+         ○​
+         ○​
+              💵  Imagen
+
+              ❌ Botón para eliminar producto​
+                 Precio
+
+
+
+
+ 3.   🔄 Funcionalidades:
+  ●​   🧺
+       🗑️ Eliminar producto individual del carrito
+  ●​
+  ●​   ♻️ Botón  para vaciar todo el carrito
+          Actualizar la vista automáticamente tras cualquier cambio​
+
+
+ 4.   🎨 Mejoras de diseño:
+  ●​ Utiliza:​
+
+         ○​   🗂️
+              🎨  Tarjetas
+         ○​
+         ○​
+         ○​
+              ✍️ Colores agradables
+
+              📐 Tipografías legibles
+                 Espaciado coherente​
+
+
+
+
+ 🧠 Arquitectura MVP 🧱
+📌 Objetivo: Organizar la app usando el patrón Model-View-Presenter
+(MVP) para lograr mayor claridad, modularidad y mantenibilidad.
+
+🧩 División:
+  ●​ View: Fragmentos y pantallas que ve el usuario 👁️
+  ●​ Model: Lógica de negocio (lista de productos, carrito)
+
+  ●​ Presenter: Conecta la lógica con la interfaz 👨‍🏫​
+
+
+✅ Ventajas del MVP:
+  ●​ 🔬 Permite pruebas unitarias fácilmente
+  ●​ 🔄 Reutilización de código
+  ●​ 📏 Mejora la escalabilidad y organización del proyecto​
+📌 IMPORTANTE:
+  ●​ Revisa la rúbrica de evaluación entregada en clase 📄 🛠️.
+  ●​ Asegúrate de cumplir con cada ítem funcional y de diseño .
+  ●​ La app debe ser intuitiva, funcional y mantener buenas prácticas de
+     desarrollo.​
+
